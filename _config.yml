@@ -1,26 +1,23 @@
 # Site settings
-title: Mercy Ma
-SEOTitle: 小马哥的技术博客
+title: fangzy
+SEOTitle: fangzy个人博客
 header-img: img/home-bg.jpg
-email: mercyblitz@gmail.com
-description: "关于程序、设计以及架构 | 小马哥，Javaer ，Software Engineer"
-keyword: "小马哥, mercyblitz, Mercy Ma, 小马哥的技术博客"
-url: "https://weibo.com/mercyblitz"              # your host, for absolute URL
+email: fangzy0723@gmail.com
+description: "记录学习笔记"
+keyword: "Java，springboot，springcloud"
+url: "http://www.fangzy.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 post:
-  author: mercyblitz
+  author: fangzy
 
 # Publish posts or collection documents with a future date.
 future: true
 
 # SNS settings
 RSS: true
-weibo_username:     mercyblitz
-github_username:    mercyblitz
-twitter_username:   mercyblitz
-#facebook_username:  mercyblitz
-#linkedin_username:  firstname-lastname-idxxxx
+github_username:    fangzy0723
+
 
 
 
@@ -29,7 +26,7 @@ twitter_username:   mercyblitz
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
 #timezone: CN  
@@ -61,7 +58,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: mercyblitz
+# disqus_username: mercyblitz
 
 # Netease settings
 netease_comment: false
@@ -79,9 +76,9 @@ netease_comment: false
 
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "大家好，我是小马哥"
-sidebar-avatar: /img/avatar-mecyblitz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+#sidebar: true                           # whether or not using Sidebar.
+#sidebar-about-description: "大家好，我是小马哥"
+#sidebar-avatar: /img/avatar-mecyblitz.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
